@@ -15,16 +15,16 @@ export default function Navbar() {
 
           {/* Desktop Navigation Links */}
           <div className="hidden md:flex space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-blue-600 font-medium transition">መነሻ (Home)</Link>
-            <Link to="/about" className="text-gray-700 hover:text-blue-600 font-medium transition">ስለ እኛ (About Us)</Link>
-            <Link to="/services" className="text-gray-700 hover:text-blue-600 font-medium transition">አገልግሎቶች (Services)</Link>
-            <Link to="/contact" className="text-gray-700 hover:text-blue-600 font-medium transition">ያግኙን (Contact)</Link>
+            <Link to="/" className="text-gray-700 hover:text-blue-600 font-medium transition">Home</Link>
+            <Link to="/about" className="text-gray-700 hover:text-blue-600 font-medium transition">About Us</Link>
+            <Link to="/services" className="text-gray-700 hover:text-blue-600 font-medium transition">Services</Link>
+            <Link to="/contact" className="text-gray-700 hover:text-blue-600 font-medium transition">Contact</Link>
           </div>
 
           {/* CTA Button */}
           <div className="hidden md:flex">
             <Link to="/services" className="bg-blue-600 text-white px-4 py-2 rounded-md font-medium hover:bg-blue-700 transition">
-              ያዘዙ
+              Order Now
             </Link>
           </div>
 
