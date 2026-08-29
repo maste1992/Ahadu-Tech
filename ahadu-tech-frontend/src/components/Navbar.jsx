@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
-import ahadu from '../assets/ahadu.png';
-
+import ahadu  from '../assets/ahadu.png';
 export default function Navbar() {
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
